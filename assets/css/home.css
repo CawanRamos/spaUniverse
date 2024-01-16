@@ -1,0 +1,53 @@
+@import url(./global.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --button-home-color: #FFF;
+    font-size: 62.5%;
+}
+
+
+#home{
+    margin: 15rem 0;
+}
+
+#home {
+    text-align: center;
+}
+
+#home h1 {
+    color: var(--titles-color);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%; /* 60px */
+}
+
+#home button {
+        color:  var(--button-home-color);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    background-color: transparent;
+
+    border-radius: 5px;
+    border: 2px solid var(--button-home-color);
+
+    display: inline-flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    max-width: 195px;
+    margin: 24px auto;
+}
+
+#home button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}

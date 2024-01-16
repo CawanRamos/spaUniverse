@@ -1,0 +1,36 @@
+.selecthome  {
+    background: url(/assets/images/homeBackground.png) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.selecthome .home {
+    color: #FFF;
+}
+
+
+.selectUniverse {
+    background: url(/assets/images/universeBackground.png) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.selectUniverse .universe {
+    color: #FFF;
+}
+
+.selectExploration {
+    background: url(/assets/images/exploracaoBackground.png) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.selectExploration .exploration {
+    color: #FFF;
+}

@@ -1,0 +1,28 @@
+@import url(./global.css);
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+#universo {
+    padding: 6.4rem 10.2rem;
+}
+
+#universo h1 {
+    color: var(--titles-color);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%; /* 60px */
+    margin-bottom: 1.6rem;
+    
+}
+
+#universo p {
+    color: var(--titles-color);
+    font-family: Roboto;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    max-width: 64.8rem;
+}
